@@ -1,15 +1,16 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background: #D7EDF5;
- 
+  font-family: Georgia, Arial, Helvetica, sans-serif;
+  background: #1B3C4B ;
+  color: white;
 }
 /* Header*/
 .name {
   color: white;
+  margin: 50px;
   border-style: solid;
-  border-width: 10px;
-  background-color: teal;
-  border-color: #3D3D3D;
+  border-width: 4px;
+  background-color: #0E242E;
+  border-color: black;
   text-align: center;
   font-size: 30px;
   
@@ -20,10 +21,13 @@ body {
 .summary {
   text-align: center;
   font-size: 20px;
-  border-bottom: solid 2px #3D3D3D;
+  border-bottom: solid 2px black;
 }
 
-
+#jobs p{
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
 /* career objective*/
 .column {
   text-align: center;
@@ -32,13 +36,13 @@ body {
 }
 
 #jobs {
-  border-bottom: solid 2px #3D3D3D;
+  border-bottom: solid 2px black;
 }
 /* Footer*/
 #contact {
 	height: 20px;
 	width: 100%;
-	margin: 25px 0;
+	margin: 5px 0;
 	padding-left: 10px;
 	padding-top: 0px;
     font-weight: 800;
@@ -52,7 +56,7 @@ body {
 
 #contact li {
 	float: left;
-	border-right: solid 1px #aaa;
+	border-right: solid 1px white;
 	padding: 0px 15px;
 }
 
