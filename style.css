@@ -1,0 +1,71 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #D7EDF5;
+ 
+}
+/* Header*/
+.name {
+  color: white;
+  border-style: solid;
+  border-width: 10px;
+  background-color: teal;
+  border-color: #3D3D3D;
+  text-align: center;
+  font-size: 30px;
+  
+}
+
+
+/* career objective*/
+.summary {
+  text-align: center;
+  font-size: 20px;
+  border-bottom: solid 2px #3D3D3D;
+}
+
+
+/* career objective*/
+.column {
+  text-align: center;
+  font-size: 20px;
+  
+}
+
+#jobs {
+  border-bottom: solid 2px #3D3D3D;
+}
+/* Footer*/
+#contact {
+	height: 20px;
+	width: 100%;
+	margin: 25px 0;
+	padding-left: 10px;
+	padding-top: 0px;
+    font-weight: 800;
+}
+
+#contact ul {
+	list-style: none;
+	float: left;
+	padding-left: 10px;
+}
+
+#contact li {
+	float: left;
+	border-right: solid 1px #aaa;
+	padding: 0px 15px;
+}
+
+#contact li:last-child {
+	border-right: none;
+}
+
+#contact li p {
+	font-size: .7em;
+	float: left;
+	padding: 7px 5px 0px 5px;
+}
+
+
+
+
